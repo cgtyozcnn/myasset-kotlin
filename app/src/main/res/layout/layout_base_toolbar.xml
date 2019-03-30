@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/baseToolbar_textView_leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="deneme"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonTextBlue"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/baseToolbar_textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:text="Bu Bir toolbar"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/baseToolbar_imageView_rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/ic_chevron_right_black_24dp" />
+
+    <TextView
+        android:id="@+id/baseToolbar_textView_rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="İleri"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonTextBlue"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorLineGrey"></View>
+</FrameLayout>

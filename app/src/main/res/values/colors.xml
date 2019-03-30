@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorLine">#EBEBEB</color>
+    <color name="colorFont">#000000</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorButtonBackgroundGrey">#F8F6F9</color>
+    <color name="colorButtonTextBlue">#3377F6</color>
+    <color name="colorButtonTextDarkBlue">#1051B4</color>
+    <color name="colorButtonTextDarkGrey">#60616B</color>
+    <color name="colorButtonStrokeHardGrey">#D9D8DF</color>
+    <color name="colorBackgroundGrey">#F9F9F9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLineGrey">#D9D8DF</color>
+    <color name="colorBackgroundProfile">#EEEEF3</color>
+    <color name="datePickerCircle">#5791E6</color>
+</resources>
